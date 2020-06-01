@@ -145,19 +145,9 @@ void Logic()
     switch (dir)
     {
     case LEFT:
-        if (prevDir == RIGHT)
-        {
-            x++;
-            break;
-        }
         x--;
         break;
     case RIGHT:
-        if (prevDir == LEFT)
-        {
-            x--;
-            break;
-        }
         x++;
         break;
     case UP:
